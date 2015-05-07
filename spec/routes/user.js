@@ -1,5 +1,4 @@
 var request = require("request");
-
 var base_url = "http://localhost:3000/user"
 
 describe("User", function() {
