@@ -1,6 +1,13 @@
 # Logs
 logs
 *.log
+/tmp
+
+#Ignore vim specific files
+*.sw?
+
+##Ignore cached .sass files 
+*.sass-cache/*
 
 # Runtime data
 pids
