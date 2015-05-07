@@ -11,14 +11,19 @@ router.get('/:user', function(req, res, next){
   res.send('user profile');
 });
 
+// POST edit user profile; 
+router.post('/:user', function(req, res, next){
+  res.send('edit user profile post request');
+});
+
+// DELETE edit user profile; 
+router.post('/:user', function(req, res, next){
+  res.send('edit user profile post request');
+});
+
 // GET edit user profile;
 router.get('/:user/edit', function(req, res, next){
   res.send('edit user profile');
-});
-
-// POST edit user profile; 
-router.post('/:user/edit', function(req, res, next){
-  res.send('edit user profile post request');
 });
 
 // GET user's likes;
