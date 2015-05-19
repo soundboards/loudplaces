@@ -12,4 +12,7 @@ var BoardSchema = new Schema({
     validate: [required, 'Name is required']
   },
   clips: [] //TODO: Add clip type
-})
+});
+
+var Board = mongoose.model('Board', BoardSchema);
+module.exports = Board;
