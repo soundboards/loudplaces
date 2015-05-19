@@ -10,6 +10,14 @@ var Schema = mongoose.Schema
   , ObjectId = Schema.ObjectId;
 
 var UserSchema = new Schema({
+  name: {
+    type: String,
+    validate: [required, 'Name is required']
+  },
+  email: {
+    type: mongoose.SchemaTypes.Email,
+    validate: [required, 'Email is required']
+  },
   boards: [], //TODO: add boards type
   likes: []  //TODO: add likes type
 });
