@@ -36,6 +36,7 @@
     "mongoose": "^4.0.2",
     "mongoose-types": "^1.0.3",
     "morgan": "~1.5.1",
+    "node-soundcloud": "0.0.3",
     "serve-favicon": "~2.2.0"
   },
   "devDependencies": {
